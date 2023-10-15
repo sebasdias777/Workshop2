@@ -4,7 +4,7 @@ Este proyecto se enfoca en el procesamiento, transformación y análisis de dato
 
 ## Objetivo
 
-El objetivo principal de este proyecto es realizar un análisis de datos de canciones que han ganado premios Grammy . Para ello, se combinan dos conjuntos de datos:
+El objetivo principal de este proyecto es realizar un análisis de datos de las canciones que han ganado premios Grammy . Para ello, se combinan dos conjuntos de datos:
 
 - `the_grammy_awards.csv`: Contiene información sobre los premios Grammy, incluyendo detalles sobre las canciones ganadoras.
 - `spotify_dataset.csv`: Contiene información sobre canciones de Spotify, como su popularidad, artistas, géneros, etc.
