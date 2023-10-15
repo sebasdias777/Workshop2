@@ -9,7 +9,7 @@ El objetivo principal de este proyecto es realizar un análisis de datos de las 
 - `the_grammy_awards.csv`: Contiene información sobre los premios Grammy, incluyendo detalles sobre las canciones ganadoras.
 - `spotify_dataset.csv`: Contiene información sobre canciones de Spotify, como su popularidad, artistas, géneros, etc.
 
-El proceso ETL consiste en extraer los datos, transformarlos para adaptarlos a nuestras necesidades de análisis, fusionarlos y cargarlos en una base de datos PostgreSQL.
+El proceso ETL consiste en extraer los datos, transformarlos para adaptarlos a nuestras necesidades de análisis, unirlos y cargarlos en una base de datos PostgreSQL.
 
 ## Herramientas Utilizadas
 
