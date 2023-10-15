@@ -26,15 +26,18 @@ El proceso ETL consiste en extraer los datos, transformarlos para adaptarlos a n
 ```
 git clone https://github.com/sebasdias777/Workshop2
 ```
-3. Crea un entorno virtual de Python e instala las dependencias:
+2. Crea un entorno virtual de Python e instala las dependencias:
 ```
 python -m venv venv
 source venv/bin/activate
 ```
-3. Configura Apache Airflow. Asegúrate de tener Apache Airflow instalado y configurado.
+3. Utiliza Jupyter Notebook para realizar análisis exploratorio de datos y crear visualizaciones.
+4. Configura Apache Airflow. Asegúrate de tener Apache Airflow instalado y configurado.
+```
+airflow scheduler
+airflow standalone
+```
+5. Ejecuta el flujo de trabajo ETL con Apache Airflow. Puedes definir las tareas y programarlas según tus necesidades.
 
-4. Ejecuta el flujo de trabajo ETL con Apache Airflow. Puedes definir las tareas y programarlas según tus necesidades.
-
-5. Los datos transformados se cargarán en una base de datos PostgreSQL. Asegúrate de configurar adecuadamente las credenciales de la base de datos en tu archivo de configuración Airflow.
-
-6. Utiliza Jupyter Notebook para realizar análisis exploratorio de datos y crear visualizaciones.
+6. Los datos transformados se cargarán en una base de datos PostgreSQL. Asegúrate de configurar adecuadamente las credenciales de la base de datos en tu archivo de configuración Airflow.
+7. Utiliza Power BI para crear dashboards interactivos y presentar los resultados.
