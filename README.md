@@ -32,6 +32,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 3. Utiliza Jupyter Notebook para realizar análisis exploratorio de datos y crear visualizaciones.
+   
 4. Configura Apache Airflow. Asegúrate de tener Apache Airflow instalado y configurado.
 ```
 airflow scheduler
